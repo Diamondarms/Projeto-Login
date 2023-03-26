@@ -29,8 +29,8 @@ html, body{
 }
 main{
     background-color: white;
-    width: 350px;
-    height: 580px;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
 
     position: relative;
@@ -53,19 +53,21 @@ main{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     display: block;
-    height: 45%;
+    height: 40%;
 }
 section{
     padding: 0px 10px 10px 10px;
-    height: 65%;
+    height: 60%;
 }
 section h1{
     text-align: center;
-    margin: 10px;
+    margin: 7px;
+    font-size: 1.2em;
 }
 section p {
     text-align: justify;
     font-size: 0.8em;
+    line-height: 1em;
 }
 
 .inp{
