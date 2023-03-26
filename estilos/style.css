@@ -79,11 +79,15 @@ form div input{
     border-radius: 5px;
     border: 2px solid black;
     width: calc(100% - 45.7px);
-    transform: translateY(-4px);
+    transform: translateY(-4.5px);
     padding: 8px;
-    height: 40px;
+    height: 39px;
     border: 2px solid var(--cor1);
     border-radius: 5px;
+    background-color: #9be7e5;
+}
+div input:focus{
+    background-color: white;
 }
 form div{
     background-color: var(--cor1);
@@ -94,13 +98,13 @@ label span{
 }
 
 #entrar{
-    background-color: rgb(82, 197, 139);
+    background-color: var(--cor2);
     width: 100%;
     border: none;
     cursor: pointer;
 }
 #entrar:hover{
-    background-color: rgb(82, 197, 139);
+    background-color: var(--cor2);
 }
 
 #esqueci{
