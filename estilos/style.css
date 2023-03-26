@@ -102,7 +102,7 @@ label span{
 #entrar{
     background-color: var(--cor2);
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1em;
     border: none;
     cursor: pointer;
 }
