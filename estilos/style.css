@@ -100,25 +100,31 @@ label span{
 #entrar{
     background-color: var(--cor2);
     width: 100%;
+    font-size: 1.1em;
     border: none;
     cursor: pointer;
 }
-#entrar:hover{
-    background-color: var(--cor2);
+#entrar:hover, #entrar:focus{
+    background-color: #285f5d;
 }
 
-#esqueci{
+
+#esqueci a{
+    display: block;
     background-color: white;
     color: var(--cor2);
     text-align: center;
     border: 1px solid var(--cor2);
     cursor: pointer;
-}
-#esqueci span{
-    vertical-align: middle;
-}
-#esqueci a{
-    color: var(--cor2);
-    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
     text-decoration: none;
+}
+#esqueci a span{
+    transform: translateY(5px);
+}
+#esqueci a:hover, #esqueci a:focus{
+    background-color: var(--cor2);
+    color: white;
 }
