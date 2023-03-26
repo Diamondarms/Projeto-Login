@@ -67,7 +67,6 @@ section h1{
 section p {
     text-align: justify;
     font-size: 0.8em;
-    line-height: 1em;
 }
 
 .inp{
@@ -78,8 +77,8 @@ section p {
     border-radius: 5px;
 }
 form div input{
-    width: calc(100% - 45.7px);
-    transform: translateY(-4.5px);
+    width: calc(100% - 45px);
+    transform: translateY(-6.6px);
     padding: 8px;
     height: 39px;
     border: 2px solid var(--cor1);
